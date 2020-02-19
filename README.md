@@ -1,8 +1,30 @@
-A simple Hello World app inspired by the steps from Heroku document "Create a Java Web Application Using Embedded Tomcat"
+# Java Web Application Sample
 
-To run locally after cloning the repo,
+Sample Java Web Application. Can be used for testing.
 
-1. mvn package
-2. sh target/bin/webapp 
-3. a test line here ....
+
+## Dependencies
+
+This project requires Maven installed.
+
+```bash
+# For Ubuntu/Debian
+sudo apt install -y maven
+```
+
+## How to build
+
+```bash
+# Run Maven builder
+mvn package
+```
+
+## Generated packages
+
+The War file generated can be found at:
+```
+.
+├── target
+│   └── embeddedTomcatSample.war
+```
 
